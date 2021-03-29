@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template:
+    "topLeft topMiddle topRight" 1fr
+    "middleLeft middleMiddle middleRight" 1fr
+    "bottomleft middleMiddle bottomRight" 1fr /
+    300px 1fr 300px;
+
+  height: 100vh;
+  width: 100vw;
+
+  text-align: center;
+}
+
+.topLeft {
+  grid-area: topLeft;
+  background-color: blue;
+}
+.middleLeft {
+  grid-area: middleLeft;
+  background-color: red;
+}
+.bottomleft {
+  grid-area: bottomleft;
+  background-color: orchid;
+}
+
+.topMiddle {
+  grid-area: topMiddle;
+  background-color: grey;
+}
+.middleMiddle {
+  grid-area: middleMiddle;
+  background-color: peachpuff;
+}
+.topRight {
+  grid-area: topRight;
+  background-color: green;
+}
+.middleRight {
+  grid-area: middleRight;
+  background-color: tomato;
+}
+.bottomRight {
+  grid-area: bottomRight;
+  background-color: purple;
+}
