@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template:
+    "topBanner topBanner topBanner" 1fr
+    "LeftColum middleColumn rightColumn" 1fr
+    "LeftColum middleColumn rightColumn" 1fr
+    "LeftColum middleColumn rightColumn" 1fr/
+    300px 1fr 300px;
+
+  height: 100vh;
+  width: 100vw;
+
+  text-align: center;
+
+  grid-gap: 1px;
+}
+
+.topBanner {
+  grid-area: topBanner;
+  background-color: blue;
+}
+.LeftColum {
+  grid-area: LeftColum;
+  background-color: red;
+}
+.rightColumn {
+  grid-area: rightColumn;
+  background-color: orchid;
+}
+
+.middleColumn {
+  grid-area: middleColumn;
+  background-color: purple;
+}

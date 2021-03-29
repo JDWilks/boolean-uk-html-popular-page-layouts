@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template:
+    "LeftColum middleColumn rightColumn" 1fr
+    "LeftColum middleColumn rightColumn" 1fr
+    "LeftColum middleColumn rightColumn" 1fr/
+    50px 100px 1fr;
+
+  height: 100vh;
+  width: 100vw;
+
+  text-align: center;
+
+  grid-gap: 1px;
+}
+
+.LeftColum {
+  grid-area: LeftColum;
+  background-color: red;
+}
+.rightColumn {
+  grid-area: rightColumn;
+  background-color: orchid;
+}
+
+.middleColumn {
+  grid-area: middleColumn;
+  background-color: purple;
+}
