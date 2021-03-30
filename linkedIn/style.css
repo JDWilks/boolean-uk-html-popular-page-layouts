@@ -35,24 +35,18 @@
   grid-template-rows: 45% 20% 20% 15%;
 }
 
-.more1 {
-  background-color: lightblue;
-  padding: 10px;
+.item1 .more1 {
+  background-color: red;
 }
 
-.more2 {
-  background-color: lightgrey;
-  padding: 10px;
+.item1 .more2 {
+  background-color: rgb(233, 89, 89);
 }
-
-.more3 {
-  background-color: lightpink;
-  padding: 10px;
+.item1 .more3 {
+  background-color: rgb(245, 4, 4);
 }
-
-.more4 {
-  background-color: lightgreen;
-  padding: 10px;
+.item1 .more4 {
+  background-color: rgb(233, 106, 106);
 }
 
 .item2 {
@@ -61,9 +55,17 @@
   grid-template-rows: 3fr 1fr 1fr 1fr;
 }
 
-.more2 {
-  background-color: lightgreen;
-  padding: 10px;
+.item2 .more5 {
+  background-color: green;
+}
+.item2 .more6 {
+  background-color: rgb(13, 235, 13);
+}
+.item2 .more7 {
+  background-color: rgb(92, 224, 92);
+}
+.item2 .more8 {
+  background-color: rgb(152, 235, 152);
 }
 
 .item3 {
@@ -72,9 +74,14 @@
   grid-template-rows: 2fr 2fr 1fr;
 }
 
-.more3 {
-  background-color: lightyellow;
-  padding: 10px;
+.item3 .more9 {
+  background-color: blueviolet;
+}
+.item3 .more10 {
+  background-color: rgb(174, 114, 231);
+}
+.item3 .more11 {
+  background-color: rgb(51, 34, 66);
 }
 
 .Middle {
@@ -92,8 +99,16 @@
   grid-template-rows: 2fr 2fr;
 }
 
+.toprow1 .toprow2 {
+  background-color: blue;
+}
+
+.toprow1 .toprow3 {
+  background-color: rgb(115, 115, 224);
+}
+
 .toprow1 {
-  background-color: lightblue;
+  background-color: white;
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -104,6 +119,19 @@
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottomrow .links1 {
+  background-color: grey;
+}
+.bottomrow .links2 {
+  background-color: rgb(70, 69, 69);
+}
+.bottomrow .links3 {
+  background-color: rgb(85, 84, 84);
+}
+.bottomrow .links4 {
+  background-color: rgb(75, 62, 62);
 }
 
 .middlerow2 {
@@ -138,6 +166,14 @@
   grid-template-rows: 1fr 5fr;
   place-items: center;
   background-color: lightcoral;
+}
+
+.right1 .copy1 {
+  background-color: green;
+}
+
+.right1 .copy2 {
+  background-color: rgb(121, 209, 121);
 }
 
 .right2 {
