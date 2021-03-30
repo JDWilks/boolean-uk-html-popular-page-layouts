@@ -32,3 +32,26 @@
   grid-area: middleColumn;
   background-color: purple;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template:
+      "topBanner topBanner " 1fr
+      "LeftColum middleColumn " 1fr
+      "LeftColum middleColumn " 1fr
+      "LeftColum middleColumn " 1fr/
+      1fr 1fr;
+
+    height: 100vh;
+    width: 100vw;
+
+    text-align: center;
+
+    grid-gap: 1px;
+  }
+
+  .rightColumn {
+    display: none;
+  }
+}
