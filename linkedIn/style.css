@@ -129,15 +129,18 @@
   border: solid 1px black;
   background-color: white;
   display: grid;
-
+  grid-template-rows: 1fr 5fr;
   place-items: center;
+  background-color: lightgrey;
 }
 
 .right3 {
   border: solid 1px black;
   background-color: white;
   display: grid;
+  grid-template-rows: 1fr 5fr;
   place-items: center;
+  background-color: lightgreen;
 }
 
 @media screen and (max-width: 800px) {
