@@ -40,6 +40,21 @@
   padding: 10px;
 }
 
+.more2 {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.more3 {
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.more4 {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
 .item2 {
   border: solid 1px black;
   display: grid;
