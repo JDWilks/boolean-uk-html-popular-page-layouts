@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   display: grid;
   grid-template:
@@ -31,33 +37,28 @@
 
 .more1 {
   background-color: lightblue;
-
   padding: 10px;
 }
 
 .item2 {
   border: solid 1px black;
   display: grid;
-
   grid-template-rows: 3fr 1fr 1fr 1fr;
 }
 
 .more2 {
-  background-color: lightblue;
-
+  background-color: lightgreen;
   padding: 10px;
 }
 
 .item3 {
   border: solid 1px black;
   display: grid;
-
   grid-template-rows: 2fr 2fr 1fr;
 }
 
 .more3 {
-  background-color: lightblue;
-
+  background-color: lightyellow;
   padding: 10px;
 }
 
@@ -70,12 +71,40 @@
   padding: 5px;
 }
 
-.middletoprow,
+.middletoprow {
+  border: solid 1px black;
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+}
+
+.toprow1 {
+  background-color: lightblue;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.bottomrow {
+  background-color: lightpink;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .middlerow2 {
   border: solid 1px black;
   background-color: white;
   display: grid;
-  place-items: center;
+  grid-template-columns: 1fr;
+
+  grid-gap: 5px;
+  overflow: scroll;
+}
+
+.post {
+  background-color: lightgreen;
+  padding: 10px;
+  height: 200px;
 }
 
 .Right {
