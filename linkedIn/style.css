@@ -116,8 +116,23 @@
   grid-gap: 5px;
 }
 
-.right1,
-.right2,
+.right1 {
+  border: solid 1px black;
+  /* background-color: white; */
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  place-items: center;
+  background-color: lightcoral;
+}
+
+.right2 {
+  border: solid 1px black;
+  background-color: white;
+  display: grid;
+
+  place-items: center;
+}
+
 .right3 {
   border: solid 1px black;
   background-color: white;
