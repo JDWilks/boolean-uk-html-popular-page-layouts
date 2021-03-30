@@ -24,33 +24,41 @@
 }
 
 .item1 {
-  background-color: white;
   border: solid 1px black;
   display: grid;
-  place-items: grid-area;
   grid-template-rows: 45% 20% 20% 15%;
 }
 
 .more1 {
   background-color: lightblue;
-  display: grid;
+
   padding: 10px;
 }
 
 .item2 {
-  background-color: white;
   border: solid 1px black;
   display: grid;
-  place-items: center;
-  grid-template-rows: 45% 20% 20% 15%;
+
+  grid-template-rows: 3fr 1fr 1fr 1fr;
+}
+
+.more2 {
+  background-color: lightblue;
+
+  padding: 10px;
 }
 
 .item3 {
-  background-color: white;
   border: solid 1px black;
   display: grid;
-  place-items: center;
-  grid-template-rows: 45% 20% 20% 15%;
+
+  grid-template-rows: 2fr 2fr 1fr;
+}
+
+.more3 {
+  background-color: lightblue;
+
+  padding: 10px;
 }
 
 .Middle {
